@@ -1,16 +1,14 @@
-import React from 'react';
-import logo from './logo.svg';
+import 'antd/dist/antd.css';
+import React, { FC } from 'react';
 import './App.css';
+import Menus from './components/menu';
 
-function App() {
-  return (
-    <div className="App">
-      hello aloua qwrfqaewrfaesdfdsfdsfsdfa
-      <div>
-        
-      </div>
-    </div>
-  );
-}
+
+
+const App: FC = () => (
+  <div className="App">
+    <Menus />
+  </div>
+);
 
 export default App;
